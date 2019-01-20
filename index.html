@@ -22,7 +22,8 @@
 
     <!--Main Navigation-->
     <header>
-<button onclick="topFunction()" id="myBtn" title="Go to top"><h3 id="arrow">&#8593;</h3></button>
+<button  id="myBtn" title="Go to top"><h1 id="arrow">91.2</h1></button>
+
         <!-- Navbar -->
         <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark scrolling-navbar">
             <div class="container">
@@ -52,10 +53,8 @@
                         <li class="nav-item" id="abt">
                             <a class="nav-link waves-effect" href="aboutus.html" id="cli">About Us</a>
                         </li>
-                        <li class="nav-item" id="fm">
-                            <a class="nav-link waves-effect" onclick="revealRadio()" id="clj">FM@IIITM</a>
-                        </li>
-                        <li class="nav-item" >
+
+                        <li class="nav-item"  id="gallery">
                             <a class="nav-link waves-effect" href="gallery.html" id="clj">Gallery</a>
                         </li>
                         <li class="nav-item" id="contact1">
@@ -98,7 +97,7 @@
 <br>
     <!--Main layout-->
     <div class="mt-5 pt-5" id="newsfeed">
-    	
+
         <div class="container">
 
             <!--Section: Jumbotron-->
@@ -284,7 +283,7 @@
                             <!--Card image-->
                             <div class="view overlay">
                                 <div class="embed-responsive embed-responsive-16by9 rounded-top">
-                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gld5KNvKqEo"" allowfullscreen></iframe>
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gld5KNvKqEo" allowfullscreen></iframe>
                                 </div>
                             </div>
 
@@ -328,14 +327,14 @@
                         <!-- <li class="page-item">
                             <a class="page-link" href="#">2</a>
                         </li> -->
-                       
+
 
                         <li class="page-item">
                             <a class="page-link" href="#" aria-label="Next">
                                 <span aria-hidden="true">&raquo;</span>
                                 <span class="sr-only">Next</span>
                             </a>
-                        </li>      
+                        </li>
                     </ul>
                 </nav>
                 <!--Pagination-->
@@ -344,13 +343,13 @@
             <!--Section: Cards-->
 
         </div>
-        
+
     </div>
     <!--Main layout-->
 
 
 
-	
+
 
 
     <div class="mt-5 pt-5" id="radioIIITM" style="display: none;">
@@ -364,8 +363,8 @@
                    <audio controls>
   <source src="a.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
-</audio>       
-                    
+</audio>
+
                 </div>
                 <!-- Content -->
             </section>
@@ -373,7 +372,7 @@ Your browser does not support the audio element.
     </div>
 
 
-	
+
 
 
 
@@ -383,7 +382,7 @@ Your browser does not support the audio element.
     <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn" class="footer" id="foot">
 
         <!--Call to action-->
-       
+
         <hr class="my-4">
 
         <!-- Social icons -->
@@ -402,7 +401,7 @@ Your browser does not support the audio element.
             <a href="https://www.instagram.com/" target="_blank">
                 <i class="fa fa-instagram mr-3"></i>
             </a> -->
-            
+
         </div>
         <!-- Social icons -->
 
@@ -436,22 +435,6 @@ Your browser does not support the audio element.
         var limit=500;
     document.getElementById("home").style.backgroundColor = 'black';
     document.getElementById("home").style.borderRadius = '5px';
-
-    window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > limit || document.documentElement.scrollTop > limit) {
-    document.getElementById("myBtn").style.display = "block";
-  } else {
-    document.getElementById("myBtn").style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
     </script>
 </body>
 </html>
